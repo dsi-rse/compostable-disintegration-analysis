@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script defer src="https://core-facility-umami.vercel.app/script.js" data-website-id="ed2c4773-0160-4311-a9b0-fd125f5f4a09"></script>
+        <script defer src="https://analytics.ds.uchicago.edu/script.js" data-website-id="ed2c4773-0160-4311-a9b0-fd125f5f4a09"></script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
